@@ -1,10 +1,13 @@
 @charset "utf-8";
-
+@@font-face {
+  font-family: "rounded-mplus-1p-light";
+  url('../fonts/rounded-mplus-1p-light.ttf') format('truetype')
+}
 /* common */
 
 body {
   font-size: 14px;
-  font-family: Verdana, sans-serif;
+  font-family: "rounded-mplus-1p-light";
   color: #333;
 }
 
@@ -18,13 +21,20 @@ p {
 
 .btn {
   display: inline-block;
-  width: 290px;
+  width: 145px;
   line-height: 45px;
   background: #fff;
   text-align: center;
   color: #ccc;
-  border-radius: 5px;
+  border-radius: 5px 0px 0px 5px;
   opacity: 0.7;
+  float: left;
+}
+#twitterButton {
+  border-radius: 5px 0px 0px 5px;
+}
+#facebookButton {
+  border-radius: 0px 5px 5px 0px;
 }
 
 .btn:hover {
