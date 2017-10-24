@@ -79,8 +79,7 @@ section h2 {
   font-weight: normal;
 }
 
-section:not(.call-to-action) h2:after {
-  /*content: '- title - ';*/
+section h2:after {
   display: block;
   font-size: 18px;
   color: #aaa;
@@ -119,9 +118,9 @@ header img {
   bottom:0;
   border-radius: 3px;
 }
-/* features */
+/* favos */
 
-.features h2:after {
+.favos h2:after {
   content: '- My Favorites -';
 }
 
@@ -145,16 +144,16 @@ header img {
 .row: last-child {
   margin-bottom: 0;
 }
-.features h3 {
+.favos h3 {
   font-size: 24px;
 }
-/* voices */
+/* languages */
 
-.voices h2:after {
+.languages h2:after {
   content: '- Now Learning -';
 }
 
-.user img {
+.language img {
   border-radius: 50%;
   border: 5px solid #fff;
   position: absolute;
@@ -164,7 +163,7 @@ header img {
   top: -60px;
 }
 
-.user {
+.language {
   background: #fff;
   width: 250px;
   box-sizing: border-box;
@@ -172,30 +171,53 @@ header img {
   position: relative;
 }
 
-.user h3 {
+.language h3 {
   text-align: center;
 }
 
-.voices .container {
+.languages .container {
   display: flex;
   justify-content: space-between;
 }
 
-.voices h2 {
+.languages h2 {
   margin-bottom: 150px;
 }
 
+/* araticles */
+
+.articles .container {
+  display: flex;
+  justify-content: space-between;
+}
+.articles h2 {
+  margin-bottom: 72px;
+}
+.articles h2:after {
+  content: '- My Articles -';
+}
+
+.articles .container ul li {
+  font-size: 14px;
+}
+.articles .container ul li .article-title {
+  font-size: 18px;
+  color: #000;
+}
+
 /* call-to-action */
-.call-to-action {
-    background: url('../imgs/headerBg.JPG') ;
-    background-size: cover;
-    text-align: center;
+/*.call-to-action {
+  width: 100%;
+  height: 124px;
+  background: url('../imgs/headerBg.JPG') ;
+  background-size: cover;
+  text-align: center;
 }
 
 .call-to-action h2 {
   color: #fff;
   margin-bottom: 50px;
-}
+}*/
 
 /* footer */
 
@@ -203,4 +225,5 @@ footer {
   padding: 90px 0;
   text-align: center;
   color: #ccc;
+  background-color: #f8f8f8;
 }
