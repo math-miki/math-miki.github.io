@@ -149,6 +149,10 @@ header img {
 }
 /* languages */
 
+.languages .container {
+  padding-bottom: 150px;
+}
+
 .languages h2:after {
   content: '- Now Learning -';
 }
