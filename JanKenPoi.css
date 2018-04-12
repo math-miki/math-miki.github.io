@@ -1,0 +1,32 @@
+button.myHand {
+  border: none;
+  background-color: rgba(255, 0, 0, 0.5);
+  border-radius: 10px;
+  width: 100px;
+  height: 170px;
+  font-size: 40px;
+  outline: none;
+}
+div#myHands>div {
+  margin-bottom: 5px;;
+}
+button.myHand:active {
+  background-color: rgba(255, 0, 0, 0.6);
+}
+a.result {
+  display: block;
+  width: 150px;
+  height: 255px;
+  border-radius: 15px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: rgba(200, 100, 100, 0.5);
+}
+div#myHands {
+  margin-right: 50px;
+  float: left;
+}
+
+#container>#ResultContainer {
+}
